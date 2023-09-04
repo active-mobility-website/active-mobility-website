@@ -1,0 +1,33 @@
+﻿h5.typography-20-bot {
+    margin-bottom: 20px;
+}
+h6.typography-20-bot {
+    margin-bottom: 20px;
+}
+p.typography-20-bot {
+    margin-bottom: 20px;
+}
+.typography-5-bot {
+    margin-bottom: 5px;
+}
+p.typography-5-bot {
+    margin-bottom: 5px;
+}
+h6.typography-5-bot {
+    margin-bottom: 5px;
+}
+h5.typography-5-bot {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 720px) {
+    .left-center-on-screen-size {
+        text-align:center;
+    }
+}
+
+@media (min-width: 721px) {
+    .left-center-on-screen-size {
+        text-align:left;
+    }
+}

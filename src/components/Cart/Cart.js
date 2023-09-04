@@ -2,7 +2,9 @@ import React from 'react';
 
 const Cart = () => {
     const content = <>
-        There are 0 items in your cart.
+        <div>
+            There are 0 items in your cart.
+        </div>
     </>;
     return content;
 };

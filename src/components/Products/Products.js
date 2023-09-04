@@ -2,7 +2,9 @@ import React from 'react';
 
 const Products = () => {
     const content = <>
-        Normally this would be a list of products.
+        <div>
+            Normally this would be a list of products.
+        </div>
     </>;
     return content;
 };

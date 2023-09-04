@@ -15,10 +15,11 @@ import AdbIcon from '@mui/icons-material/Adb';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import ampLogo from '../../images/amp1_logo.png';
+import activeLogo from '../../images/ActiveLogo.png';
 
 const HeaderLogo = styled.img`
-    width: 50px;
+    height: 90px;
+    margin-right: 30px;
 `;
 
 const pages = [
@@ -29,6 +30,10 @@ const pages = [
     {
         displayName: 'Products',
         extension: '/Products'
+    },
+    {
+        displayName: 'Contact Us',
+        extension: '/ContactUs'
     }
 ];
 const settings = ['Cart ~ 0 Items'];
@@ -57,37 +62,20 @@ function Navbar() {
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     <Link to={"/"}>
-                        <HeaderLogo src={ampLogo} />
-                    </Link>
-                    <Link to={"/"} style={{ textDecoration: "none", color: "white" }}>
-                        <Typography
-                            variant="h6"
-                            noWrap
-                            sx={{
-                                mr: 2,
-                                display: { xs: 'none', md: 'flex' },
-                                fontFamily: 'monospace',
-                                fontWeight: 700,
-                                letterSpacing: '.3rem',
-                                color: 'inherit',
-                                textDecoration: 'none',
-                            }}
-                        >
-                            Active
-                        </Typography>
+                        <HeaderLogo src={activeLogo} />
                     </Link>
                     
 
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
                         <IconButton
                             size="large"
-                            aria-label="account of current user"
+                            aria-label="menu bar"
                             aria-controls="menu-appbar"
                             aria-haspopup="true"
                             onClick={handleOpenNavMenu}
                             color="inherit"
                         >
-                            <MenuIcon />
+                            <MenuIcon style={{ color: "white" }} />
                         </IconButton>
                         <Menu
                             id="menu-appbar"
@@ -104,7 +92,7 @@ function Navbar() {
                             open={Boolean(anchorElNav)}
                             onClose={handleCloseNavMenu}
                             sx={{
-                                display: { xs: 'block', md: 'none' },
+                                display: { xs: 'block',  md: 'none' },
                             }}
                         >
                             {pages.map((page) => (

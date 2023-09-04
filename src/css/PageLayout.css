@@ -1,0 +1,10 @@
+﻿@media (max-width: 720px) {
+    div.page-layout > * {
+        padding: 0px 30px;
+    }
+}
+@media (min-width: 721px) {
+    div.page-layout > * {
+        padding: 0px 50px;
+    }
+}
