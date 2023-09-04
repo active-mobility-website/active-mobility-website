@@ -11,7 +11,10 @@ const Home = () => {
     const content = <>
         <ContentBlock>
             <Typography className="left-center-on-screen-size" variant="h5">
-                Welcome to Active Mobility Products - Your Trusted Source for Wheelchairs and Medical Supplies in British Columbia!
+                Welcome to Active Mobility Products
+            </Typography>
+            <Typography className="left-center-on-screen-size" variant="h5">
+                Your Trusted Source for Wheelchairs and Medical Supplies in British Columbia!
             </Typography>
 
             <br />
