@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/active-mobility-website/static/css/main.e356e15a.css",
-    "main.js": "/active-mobility-website/static/js/main.835f400f.js",
+    "main.js": "/active-mobility-website/static/js/main.8ed3de73.js",
     "static/js/787.f1583103.chunk.js": "/active-mobility-website/static/js/787.f1583103.chunk.js",
     "static/media/ActiveLogo.png": "/active-mobility-website/static/media/ActiveLogo.943965312f959504cfbb.png",
     "index.html": "/active-mobility-website/index.html",
     "main.e356e15a.css.map": "/active-mobility-website/static/css/main.e356e15a.css.map",
-    "main.835f400f.js.map": "/active-mobility-website/static/js/main.835f400f.js.map",
+    "main.8ed3de73.js.map": "/active-mobility-website/static/js/main.8ed3de73.js.map",
     "787.f1583103.chunk.js.map": "/active-mobility-website/static/js/787.f1583103.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e356e15a.css",
-    "static/js/main.835f400f.js"
+    "static/js/main.8ed3de73.js"
   ]
 }
