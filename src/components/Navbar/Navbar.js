@@ -19,7 +19,7 @@ import activeLogo from '../../images/ActiveLogo.png';
 
 const HeaderLogo = styled.img`
     height: 90px;
-    margin-right: 30px;
+    margin-right: 20px;
 `;
 
 const pages = [

@@ -112,15 +112,6 @@ const Home = () => {
             </Typography>
 
         </ContentBlock>
-        <ContentBlock>
-            Contact Us:
-
-        Have questions or need assistance? Our friendly team is ready to assist you. Feel free to reach out through our contact page, and we'll get back to you promptly.
-
-        Thank you for choosing Active Mobility Products as your trusted source for wheelchairs and medical supplies in British Columbia. We look forward to serving you and helping you achieve greater mobility and independence.
-
-            Let's embark on this journey together!
-        </ContentBlock>
     </>;
 
     return content;
