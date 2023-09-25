@@ -1,7 +1,12 @@
 import React from 'react';
-import { Typography } from '@mui/material';
+import { Typography, Paper, Box, Button } from '@mui/material';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import '../../css/Typography.css';
+import '../../css/MainProductDisplay.css';
+import trirideLogo from '../../images/Triride-Logo.png';
+import freedomTraxLogo from '../../images/Freedom-Trax.png';
+import pushLoxLogo from '../../images/PushLox.PNG';
 
 const ContentBlock = styled.div`
     margin-bottom: 50px;
@@ -14,7 +19,7 @@ const Home = () => {
                 Welcome to Active Mobility Products
             </Typography>
             <Typography className="left-center-on-screen-size" variant="h5">
-                Your Trusted Source for Wheelchairs and Medical Supplies in British Columbia!
+                Your Trusted Source for Wheelchairs in British Columbia!
             </Typography>
 
             <br />
@@ -22,6 +27,98 @@ const Home = () => {
             <Typography className="left-center-on-screen-size" variant="body1">
                 At Active Mobility Products, we understand that mobility is essential to maintaining independence and quality of life.
                 
+            </Typography>
+            <Typography className="left-center-on-screen-size" variant="body1">
+                Whether you or your loved one require a wheelchair, mobility equipment, or a wide range of medical supplies,
+                we are here to provide top-quality products and expert guidance to meet your unique needs.
+            </Typography>
+        </ContentBlock>
+        <ContentBlock>
+            {buildProductLineLinkBlock()}
+            <br />
+            <Typography className="left-center-on-screen-size" variant="h6">
+                For inquiries about purchasing these products, email <Link to={"mailto:dino@activemobility.ca"}>dino@activemobility.ca</Link>
+            </Typography>
+        </ContentBlock>
+    </>;
+
+    return content;
+};
+
+const buildProductLineLinkBlock = () => {
+    return (
+        <>
+            <Typography className="typography-20-bot left-center-on-screen-size" variant="h5">
+                Explore The Products
+            </Typography>
+            <Box className="main-product-display-container">
+                {buildProductPaper("Triride", trirideLogo , "Explore Triride" , "https://www.trirideitalia.com/en/")}
+                {buildProductPaper("FreedomTrax", freedomTraxLogo, "See FreedomTrax" , "https://freedomtrax.com/")}
+                {buildProductPaper("PushLox", pushLoxLogo, "Look At PushLox" ,"https://www.pushlox.com/")}
+            </Box>
+        </>
+    );
+};
+
+const buildProductPaper = (productName, imgSrc, buttonText, linkSrc) => {
+    return (
+        <>
+            
+            <Paper
+                className="main-product-display-paper"
+                sx={{
+                    backgroundColor:"lightgray.main"
+                }}
+                elevation={5}
+            >
+                <div className="main-product-image-container">
+                    <Link style={{ textDecoration: "none" }} to={linkSrc}>
+                        <Paper
+                            className="main-product-display-paper"
+                            style={{ width: "80%", margin:"0px auto"}}
+                            elevation={8}
+                        >
+                            <img src={imgSrc} />
+                        </Paper>
+                    </Link>
+                </div>
+                <div className="main-product-name-and-button-container">
+                    <Link style={{ textDecoration: "none", margin:"auto" }} to={linkSrc}>
+                        <Typography variant="h4" className="main-product-display-name">
+                            {productName}
+                        </Typography>
+                    </Link>
+                    <span className="main-product-display-button-container">
+                        <Button className="main-product-display-button" variant="contained" href={linkSrc}
+                            sx={{
+                                backgroundColor: "primary.light"
+                            }}
+                        >
+                            {buttonText}
+                        </Button>
+                    </span>
+                </div>
+            </Paper>
+        </>
+    );
+};
+
+// Old content
+/*
+ * <>
+        <ContentBlock>
+            <Typography className="left-center-on-screen-size" variant="h5">
+                Welcome to Active Mobility Products
+            </Typography>
+            <Typography className="left-center-on-screen-size" variant="h5">
+                Your Trusted Source for Wheelchairs and Medical Supplies in British Columbia!
+            </Typography>
+
+            <br />
+
+            <Typography className="left-center-on-screen-size" variant="body1">
+                At Active Mobility Products, we understand that mobility is essential to maintaining independence and quality of life.
+
             </Typography>
             <Typography className="left-center-on-screen-size" variant="body1">
                 Whether you or your loved one require a wheelchair, mobility scooter, or a wide range of medical supplies,
@@ -116,8 +213,7 @@ const Home = () => {
 
         </ContentBlock>
     </>;
-
-    return content;
-};
+ * 
+ * */
 
 export default Home;

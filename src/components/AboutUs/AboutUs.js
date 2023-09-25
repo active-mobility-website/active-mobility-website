@@ -59,17 +59,6 @@ const AboutUs = () => {
             </Typography>
 
             <Typography className="typography-5-bot left-center-on-screen-size" variant="h6">
-                Accessibility for All
-            </Typography>
-            <Typography className="typography-20-bot left-center-on-screen-size" variant="body1">
-                Our commitment to accessibility extends beyond the products we offer.
-                We strive to make our services accessible to everyone in British Columbia,
-                with both a physical store and an easy-to-use online platform.
-                Our website is designed to provide a seamless shopping experience for all customers,
-                regardless of their mobility challenges.
-            </Typography>
-
-            <Typography className="typography-5-bot left-center-on-screen-size" variant="h6">
                 Education and Support
             </Typography>
             <Typography className="typography-20-bot left-center-on-screen-size" variant="body1">
@@ -77,15 +66,6 @@ const AboutUs = () => {
                 Our team is not only here to help you find the right products but also to
                 educate you on their proper use and maintenance.
                 We're dedicated to ensuring you have the information and support you need to make informed decisions.
-            </Typography>
-
-            <Typography className="typography-5-bot left-center-on-screen-size" variant="h6">
-                Community Engagement
-            </Typography>
-            <Typography className="typography-20-bot left-center-on-screen-size" variant="body1">
-                Active Mobility Products is more than just a store;
-                we're part of the community. We actively engage with local organizations, support groups,
-                and events to raise awareness about mobility challenges and promote inclusivity.
             </Typography>
         </ContentBlock>
         <ContentBlock>
@@ -103,7 +83,7 @@ const AboutUs = () => {
                 Join Us in Making a Difference
             </Typography>
             <Typography className="typography-20-bot left-center-on-screen-size" variant="body1">
-                We invite you to explore our wide selection of wheelchairs, mobility scooters, medical supplies,
+                We invite you to explore our wide selection of wheelchairs, mobility equipment,
                 and daily living aids.
                 Whether you're a healthcare professional, a caregiver, or someone seeking personal solutions,
                 we are here to support you every step of the way.
@@ -113,4 +93,16 @@ const AboutUs = () => {
     return content;
 };
 
+/*
+ *          <Typography className="typography-5-bot left-center-on-screen-size" variant="h6">
+                Accessibility for All
+            </Typography>
+            <Typography className="typography-20-bot left-center-on-screen-size" variant="body1">
+                Our commitment to accessibility extends beyond the products we offer.
+                We strive to make our services accessible to everyone in British Columbia,
+                with both a physical store and an easy-to-use online platform.
+                Our website is designed to provide a seamless shopping experience for all customers,
+                regardless of their mobility challenges.
+            </Typography>
+*/
 export default AboutUs;

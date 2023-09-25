@@ -14,7 +14,7 @@ const ContactUs = () => {
                 Contact Us
             </Typography>
             <Typography className="typography-20-bot left-center-on-screen-size" variant="h6">
-                Email: activemobility@gmail.com
+                Email: dino@activemobility.ca
             </Typography>
             <Typography className="typography-20-bot left-center-on-screen-size" variant="body1">
                 Have questions or need assistance? Our friendly team is ready to assist you.
@@ -25,10 +25,6 @@ const ContactUs = () => {
                 Thank you for choosing Active Mobility Products as your trusted source for wheelchairs and medical
                 supplies in British Columbia.
                 We look forward to serving you and helping you achieve greater mobility and independence.
-            </Typography>
-
-            <Typography className="typography-20-bot left-center-on-screen-size" variant="body1">
-                Let's embark on this journey together!
             </Typography>
         </ContentBlock>
     </>;

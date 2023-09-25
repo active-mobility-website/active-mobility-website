@@ -11,11 +11,12 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
+import EmailIcon from '@mui/icons-material/Email';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import activeLogo from '../../images/ActiveLogo.png';
+import '../../css/Navbar.css';
 
 const HeaderLogo = styled.img`
     height: 90px;
@@ -123,8 +124,38 @@ function Navbar() {
                             
                         ))}
                     </Box>
+                    
+                    <Box sx={{ flexGrow: 0 }} style={{marginRight: "10px"}}>
+                        <Tooltip title="Email Us">
+                            <Link style={{ textDecoration: "none", color: 'white' }} to={"mailto:dino@activemobility.ca"}>
+                                <IconButton sx={{ p: 0 }}>
+                                    <EmailIcon style={{ color: "white" }} />
+                                </IconButton>
+                            </Link>
+                                
 
-                    <Box sx={{ flexGrow: 0 }}>
+                                
+
+                            
+                        </Tooltip>
+                        
+                    </Box>
+                    <Box className="navbar-email-text-container">
+                        <Link style={{ textDecoration: "none", color: 'white' }} to={"mailto:dino@activemobility.ca"}>
+                            <Typography textAlign="center">
+                                dino@activemobility.ca
+                            </Typography>
+                        </Link>
+                    </Box>
+                </Toolbar>
+            </Container>
+        </AppBar>
+    );
+}
+
+/*
+ * 
+ * <Box sx={{ flexGrow: 0 }}>
                         <Tooltip title="Open cart">
                             <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                                 <ShoppingCartIcon style={{color:"white"}} />
@@ -155,9 +186,5 @@ function Navbar() {
                             ))}
                         </Menu>
                     </Box>
-                </Toolbar>
-            </Container>
-        </AppBar>
-    );
-}
+ * */
 export default Navbar;

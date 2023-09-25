@@ -9,5 +9,8 @@ export const WebsiteTheme = createTheme({
         secondary: {
             main: '#f50057',
         },
+        lightgray: {
+            main: '#f0f0f0',
+        }
     },
 });

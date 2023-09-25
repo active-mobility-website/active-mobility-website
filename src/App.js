@@ -23,7 +23,6 @@ function App() {
                         <Route path="/AboutUs" element={<AboutUs />} />
                         <Route path="/Products" element={<Products />} />
                         <Route path="/ContactUs" element={<ContactUs />} />
-                        <Route path="/Cart" element={<Cart />} />
                     </Routes>
                 </div>
             </div>
@@ -31,5 +30,10 @@ function App() {
     
   );
 }
+/*
+ * 
+ * <Route path="/Cart" element={<Cart />} />
+ * 
+ * */
 
 export default App;

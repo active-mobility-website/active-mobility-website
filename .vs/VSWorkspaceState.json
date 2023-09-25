@@ -5,12 +5,11 @@
     "\\src\\components",
     "\\src\\components\\AboutUs",
     "\\src\\components\\Cart",
+    "\\src\\components\\ContactUs",
     "\\src\\components\\Home",
     "\\src\\components\\Navbar",
     "\\src\\components\\Products",
-    "\\src\\images",
-    "\\src\\images\\jokes"
+    "\\src\\css"
   ],
-  "SelectedNode": "\\src\\components\\Cart\\Cart.js",
   "PreviewInSolutionExplorer": false
 }
