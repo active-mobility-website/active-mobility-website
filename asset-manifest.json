@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/active-mobility-website/static/css/main.e356e15a.css",
-    "main.js": "/active-mobility-website/static/js/main.8ed3de73.js",
+    "main.css": "/active-mobility-website/static/css/main.c24a0b0c.css",
+    "main.js": "/active-mobility-website/static/js/main.1a5117ac.js",
     "static/js/787.f1583103.chunk.js": "/active-mobility-website/static/js/787.f1583103.chunk.js",
     "static/media/ActiveLogo.png": "/active-mobility-website/static/media/ActiveLogo.943965312f959504cfbb.png",
+    "static/media/Triride-Logo.png": "/active-mobility-website/static/media/Triride-Logo.af5348b2b53949b1abd1.png",
+    "static/media/Freedom-Trax.png": "/active-mobility-website/static/media/Freedom-Trax.e855e7228e9226373e2c.png",
+    "static/media/PushLox.PNG": "/active-mobility-website/static/media/PushLox.f67f1de038ccbb44afcb.PNG",
     "index.html": "/active-mobility-website/index.html",
-    "main.e356e15a.css.map": "/active-mobility-website/static/css/main.e356e15a.css.map",
-    "main.8ed3de73.js.map": "/active-mobility-website/static/js/main.8ed3de73.js.map",
+    "main.c24a0b0c.css.map": "/active-mobility-website/static/css/main.c24a0b0c.css.map",
+    "main.1a5117ac.js.map": "/active-mobility-website/static/js/main.1a5117ac.js.map",
     "787.f1583103.chunk.js.map": "/active-mobility-website/static/js/787.f1583103.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e356e15a.css",
-    "static/js/main.8ed3de73.js"
+    "static/css/main.c24a0b0c.css",
+    "static/js/main.1a5117ac.js"
   ]
 }
