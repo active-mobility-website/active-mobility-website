@@ -19,19 +19,10 @@ const Home = () => {
                 Welcome to Active Mobility Products
             </Typography>
             <Typography className="left-center-on-screen-size" variant="h5">
-                Your Trusted Source for Wheelchairs in British Columbia!
+                Your leader of Complex Rehab Products In Canada
             </Typography>
 
             <br />
-
-            <Typography className="left-center-on-screen-size" variant="body1">
-                At Active Mobility Products, we understand that mobility is essential to maintaining independence and quality of life.
-                
-            </Typography>
-            <Typography className="left-center-on-screen-size" variant="body1">
-                Whether you or your loved one require a wheelchair, mobility equipment, or a wide range of medical supplies,
-                we are here to provide top-quality products and expert guidance to meet your unique needs.
-            </Typography>
         </ContentBlock>
         <ContentBlock>
             {buildProductLineLinkBlock()}

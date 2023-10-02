@@ -9,11 +9,13 @@ import pushLoxLogo from '../../images/PushLox.PNG';
 
 const Products = () => {
     const content = <>
-        {buildProductLineLinkBlock()}
-        <br />
-        <Typography className="left-center-on-screen-size" variant="h6">
-            For inquiries about purchasing these products, email <Link to={"mailto:dino@activemobility.ca"}>dino@activemobility.ca</Link>
-        </Typography>
+        <div>
+            {buildProductLineLinkBlock()}
+            <br />
+            <Typography className="left-center-on-screen-size" variant="h6">
+                For inquiries about purchasing these products, email <Link to={"mailto:dino@activemobility.ca"}>dino@activemobility.ca</Link>
+            </Typography>
+        </div>
     </>;
     return content;
 };
