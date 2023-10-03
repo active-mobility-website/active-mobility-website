@@ -1,8 +1,8 @@
 {
-  "homepage": "http://active-mobility-website.github.io/active-mobility-website",
   "name": "active_mobility_website",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
+  "homepage": "http://activemobility.ca",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
@@ -45,8 +45,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
   }
 }

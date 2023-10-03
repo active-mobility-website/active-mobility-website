@@ -19,6 +19,7 @@ function App() {
                 <div className="page-layout">
                     <Routes>
                         <Route path="/" element={<Home />} />
+                        <Route path="" element={<Home />} />
                         <Route path="/active-mobility-website" element={<Home />} />
                         <Route path="/AboutUs" element={<AboutUs />} />
                         <Route path="/Products" element={<Products />} />
